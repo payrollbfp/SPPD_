@@ -83,7 +83,6 @@ async function submitSppd(){
   const payload={
     employee_id:selectedEmployee.id,lokasi_surat:val('sLokasiSurat'),kendaraan:val('sKendaraan'),
     tanggal_mulai:val('sMulai'),tanggal_selesai:val('sSelesai'),tujuan:val('sTujuan'),agenda:val('sAgenda'),
-    ditugaskan_nama:val('sDitNama'),ditugaskan_jabatan:val('sDitJab'),
     mengetahui1_tipe:val('sM1Tipe'),mengetahui1_nama:val('sM1Nama'),mengetahui1_jabatan:val('sM1Jab'),
     mengetahui2_tipe:val('sM2Tipe'),mengetahui2_nama:val('sM2Nama'),mengetahui2_jabatan:val('sM2Jab')
   };
